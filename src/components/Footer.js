@@ -7,19 +7,19 @@ const Foot = () => {
       <Footer container={true}>
          <div className=' w-full text-center '>
             <div className=' w-full justify-between sm:flex sm:items-center sm:justify-between '>
-               <Image
+               {/* <Image
                   src='/images/logo3.png'
                   height={150}
                   width={150}
                   alt='Signature Analytics Logo'
+               /> */}
+               <Footer.Brand
+                  href='#'
+                  src='/images/logo3.png'
+                  height={300}
+                  width={300}
+                  alt='Signature Analytics Logo'
                />
-               {/* <Footer.Brand
-                   href='#'
-                   src='/images/happee.webp'
-                   height={300}
-                   width={300}
-                   alt='Happee Trucking Logo'
-                /> */}
                <Footer.LinkGroup>
                   <Footer.Link href='/About'>About</Footer.Link>
                   <Footer.Link href='/Contact'>Contact</Footer.Link>
