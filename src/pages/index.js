@@ -5,6 +5,7 @@ import About from '@/components/About';
 import Hero from '@/components/Hero';
 import Mission from '@/components/Mission';
 import Experience from '@/components/Experience';
+import Core from '@/components/Core';
 import { Card } from 'flowbite-react';
 import styles from '@/styles/Home.module.css';
 
@@ -113,7 +114,9 @@ export default function Home() {
                   </div>
                </div> */}
             </section>
-            <section className=' flex justify-center'>
+            <section>
+               <Core />
+               {/* <section className=' flex justify-center'>
                <div className=' outline bg-hero bg-cover bg-no-repeat w-1/5 h-40 flex items-center justify-center'>
                   <h2 className=' text-2xl'>Ethics and Integrity</h2>
                </div>
@@ -125,6 +128,7 @@ export default function Home() {
                      Team and Family Environment
                   </h2>
                </div>
+            </section> */}
             </section>
             <section className=''>
                <Mission />

@@ -1,15 +1,24 @@
 import { Card } from 'flowbite-react';
+import Image from 'next/image';
 
 const Mission = () => {
    return (
       <>
          <section className=''>
-            <h1 className=' text-center font-bold text-3xl'>
-               Mission Statement
-            </h1>
-            <div className=' py-5 md:flex md:flex-row md:gap-5 md:justify-evenly'>
+            <div className=' bg-red-800 '>
+               <h1 className=' text-center text-5xl p-10 font-bold text-white'>
+                  Mission Statement
+               </h1>
+            </div>
+            <div className=' py-10 md:flex md:flex-row md:gap-5 md:justify-evenly'>
                <div className='max-w-sm py-2'>
-                  <Card imgSrc='https://flowbite.com/docs/images/blog/image-1.jpg'>
+                  <Card>
+                     <Image
+                        src='/images/handshake.png'
+                        alt='Handshake'
+                        width={100}
+                        height={100}
+                     />
                      <h5 className='text-2xl font-bold tracking-tight text-gray-900 dark:text-white'>
                         Service
                      </h5>
@@ -23,7 +32,13 @@ const Mission = () => {
                   </Card>
                </div>
                <div className='max-w-sm py-2'>
-                  <Card imgSrc='https://flowbite.com/docs/images/blog/image-1.jpg'>
+                  <Card>
+                     <Image
+                        src='/images/customer.png'
+                        alt='Customer'
+                        width={100}
+                        height={100}
+                     />
                      <h5 className='text-2xl font-bold tracking-tight text-gray-900 dark:text-white'>
                         Customers
                      </h5>
@@ -38,7 +53,13 @@ const Mission = () => {
                   </Card>
                </div>
                <div className='max-w-sm py-2'>
-                  <Card imgSrc='https://flowbite.com/docs/images/blog/image-1.jpg'>
+                  <Card>
+                     <Image
+                        src='/images/employee.png'
+                        alt='Employee'
+                        width={100}
+                        height={100}
+                     />
                      <h5 className='text-2xl font-bold tracking-tight text-gray-900 dark:text-white'>
                         Employees
                      </h5>
