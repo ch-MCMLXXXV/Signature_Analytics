@@ -3,7 +3,7 @@ import Image from 'next/image';
 const Experience = () => {
    return (
       <>
-         <section className=''>
+         <section className=' bg-white'>
             <div>
                <div className=' bg-red-800'>
                   <h3 className=' text-center text-5xl p-10 font-bold text-white '>
@@ -31,7 +31,7 @@ const Experience = () => {
                      />
                   </div>
                   <article className='xl:w-2/5 xl:flex-none xl:m-20 p-5'>
-                     <ul className=' list-outside list-square tracking-wide text-red-800'>
+                     <ul className=' list-outside list-square tracking-wide'>
                         <li>
                            Drafting Independent Government Estimate
                         </li>
@@ -44,7 +44,7 @@ const Experience = () => {
                      </ul>
                   </article>
                   <article className='xl:w-2/5 xl:flex-none xl:m-20 p-5 '>
-                     <ul className=' list-outside list-square tracking-normal'>
+                     <ul className=' list-outside list-square tracking-normal '>
                         <li>
                            Cost estimating activities in support of
                            the following representative areas:
@@ -83,7 +83,7 @@ const Experience = () => {
                      />
                   </div>
                   <article className='xl:w-2/5 xl:flex-none xl:m-20 p-5'>
-                     <ul className=' list-outside list-square tracking-normal'>
+                     <ul className=' list-outside list-square tracking-normal '>
                         <li>
                            Cost research projects to develop
                            estimating techniques for new
@@ -93,7 +93,7 @@ const Experience = () => {
                            Operations research analysis in support of
                            cost effectiveness related studies, such
                            as:
-                           <ul className=' list-inside list-square tracking-wide'>
+                           <ul className=' list-inside list-square tracking-wide '>
                               <li>Milestone Reviews</li>
                               <li>Life-Cycle Cost/Design-to-Cost</li>
                               <li>O&S Cost Reduction Analysis</li>
@@ -112,7 +112,7 @@ const Experience = () => {
                         </li>
                      </ul>
                   </article>
-                  <article className=' xl:w-2/5 xl:flex-none xl:m-20 p-5 tracking-tight '>
+                  <article className=' xl:w-2/5 xl:flex-none xl:m-20 p-5 tracking-tight  '>
                      <ul className=' list-outside list-square'>
                         <li>
                            Perform risk analysis and develop program

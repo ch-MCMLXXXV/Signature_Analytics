@@ -13,22 +13,27 @@ const Foot = () => {
                   width={150}
                   alt='Signature Analytics Logo'
                /> */}
-               <Footer.Brand
+               {/* <Footer.Brand
                   href='#'
                   src='/images/logo3.png'
                   height={300}
                   width={300}
                   alt='Signature Analytics Logo'
-               />
-               <Footer.LinkGroup>
+               /> */}
+               {/* <Footer.LinkGroup>
                   <Footer.Link href='/About'>About</Footer.Link>
                   <Footer.Link href='/Contact'>Contact</Footer.Link>
-                  {/* <Footer.Link href='#'>Apply</Footer.Link> */}
-               </Footer.LinkGroup>
+                  <Footer.Link href='#'>Apply</Footer.Link>
+               </Footer.LinkGroup> */}
             </div>
             <Footer.Divider />
             <div className='w-full sm:flex sm:items-center sm:justify-between'>
-               <Footer.Copyright by='BuiltByCHarris' />
+               <Image
+                  src='/images/builtbych.png'
+                  height={150}
+                  width={150}
+                  alt='BuiltByCHarris'
+               />
                <Footer.Copyright
                   by='Signature Analytics'
                   year={2023}

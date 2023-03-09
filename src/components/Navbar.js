@@ -5,7 +5,7 @@ import Image from 'next/image';
 const Nav = () => {
    return (
       <Navbar fluid={true} rounded={true}>
-         <Navbar.Brand href='https://flowbite.com/'>
+         <Navbar.Brand href='/'>
             <Image
                src='/images/logo3.png'
                //    className='mr-3 h-6 sm:h-9'
