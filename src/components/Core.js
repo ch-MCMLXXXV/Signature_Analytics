@@ -5,7 +5,7 @@ const Core = () => {
       <>
          <section className=' bg-opacity-75'>
             <div className=' '>
-               <h1 className=' text-5xl text-center p-10 text-white'>
+               <h1 className=' text-6xl text-center p-10 text-white font-allura font-bold underline underline-offset-[13px] decoration-red-800'>
                   Core Values
                </h1>
             </div>
@@ -31,7 +31,7 @@ const Core = () => {
                      />
 
                      <h2 className=' text-4xl p-5 text-white'>
-                        Ethics and Integrity
+                        Service First Mentality
                      </h2>
                   </div>
                   <div className=' flex flex-wrap  py-10'>
@@ -43,7 +43,7 @@ const Core = () => {
                         className='block mx-3'
                      />
                      <h2 className=' text-4xl p-5 text-white'>
-                        Customer Commitment
+                        Ethics and Integrity
                      </h2>
                   </div>
                   <div className=' flex flex-wrap py-10 '>
@@ -55,7 +55,7 @@ const Core = () => {
                         className='block mx-3'
                      />
                      <h2 className=' text-4xl p-5 text-white'>
-                        Team and Family Environment
+                        Excellence In All We Do
                      </h2>
                   </div>
                </article>

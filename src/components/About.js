@@ -4,7 +4,7 @@ const About = () => {
    return (
       <>
          <section className=' p-12 bg-slate-100'>
-            <h1 className=' text-center font-bold text-5xl py-5'>
+            <h1 className=' text-center font-bold text-5xl py-5 font-allura underline underline-offset-[12px] decoration-red-800'>
                About Us
             </h1>
             <section className=' xl:flex xl:divide-x-4 xl:divide-red-800 py-10 xl:justify-center'>
@@ -18,7 +18,7 @@ const About = () => {
                   />
                </article>
                <article className=' xl:w-2/5 xl:flex-none'>
-                  <p className=' p-6 text-left text-gray-600 text-xl tracking-wide'>
+                  <p className=' p-6 text-left text-gray-700 text-xl tracking-wide'>
                      {' '}
                      Signature Analytics is a Professional Services
                      Provider established with a purpose to deliver

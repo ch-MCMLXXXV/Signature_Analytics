@@ -14,6 +14,12 @@ module.exports = {
          square: 'square',
       },
       extend: {
+         fontFamily: {
+            allura: ['Allura', 'cursive'],
+            dancing: ['Dancing Script', 'cursive'],
+            great: ['Great Vibes', 'cursive'],
+            cody: ['Codystar', 'cursive'],
+         },
          backgroundImage: {
             hero: "url('/images/Hero.avif')",
             office:

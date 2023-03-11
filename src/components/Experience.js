@@ -5,13 +5,13 @@ const Experience = () => {
       <>
          <section className=' bg-white'>
             <div>
-               <div className=' bg-red-800'>
-                  <h3 className=' text-center text-5xl p-10 font-bold text-white '>
+               <div className=''>
+                  <h3 className=' text-center  text-6xl p-10 font-allura font-bold underline underline-offset-[15px] decoration-red-800'>
                      {' '}
                      Experience
                   </h3>
                </div>
-               <p className=' tracking-tight text-center p-10 m-5'>
+               <p className=' tracking-tight  text-center p-10 m-5 text-4xl text-gray-700'>
                   20+ years of experience providing senior level input
                   and recommendations for cost estimating and budget
                   activities, inclusive of all program life cycle
@@ -31,7 +31,7 @@ const Experience = () => {
                      />
                   </div>
                   <article className='xl:w-2/5 xl:flex-none xl:m-20 p-5'>
-                     <ul className=' list-outside list-square tracking-wide'>
+                     <ul className=' list-outside list-square tracking-wide text-3xl leading-loose text-gray-700 '>
                         <li>
                            Drafting Independent Government Estimate
                         </li>
@@ -44,7 +44,7 @@ const Experience = () => {
                      </ul>
                   </article>
                   <article className='xl:w-2/5 xl:flex-none xl:m-20 p-5 '>
-                     <ul className=' list-outside list-square tracking-normal '>
+                     <ul className=' list-outside list-square tracking-normal text-3xl leading-loose text-gray-700 '>
                         <li>
                            Cost estimating activities in support of
                            the following representative areas:
@@ -83,7 +83,7 @@ const Experience = () => {
                      />
                   </div>
                   <article className='xl:w-2/5 xl:flex-none xl:m-20 p-5'>
-                     <ul className=' list-outside list-square tracking-normal '>
+                     <ul className=' list-outside list-square tracking-normal text-3xl text-gray-700 '>
                         <li>
                            Cost research projects to develop
                            estimating techniques for new
@@ -113,7 +113,7 @@ const Experience = () => {
                      </ul>
                   </article>
                   <article className=' xl:w-2/5 xl:flex-none xl:m-20 p-5 tracking-tight  '>
-                     <ul className=' list-outside list-square'>
+                     <ul className=' list-outside list-square text-3xl leading-relaxed text-gray-700'>
                         <li>
                            Perform risk analysis and develop program
                            risk assessment consistent with price,

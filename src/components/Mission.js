@@ -6,7 +6,7 @@ const Mission = () => {
       <>
          <section className=' bg-white'>
             <div className=''>
-               <h1 className=' text-center text-5xl p-10 font-bold  text-red-800 '>
+               <h1 className=' text-center text-6xl p-10 font-bold  font-allura underline underline-offset-[15px] decoration-red-800'>
                   Mission Statement
                </h1>
             </div>
@@ -20,10 +20,10 @@ const Mission = () => {
                         height={100}
                         className=' m-auto'
                      />
-                     <h5 className='text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center'>
+                     <h5 className='text-2xl font-bold tracking-tight dark:text-white text-center'>
                         Service
                      </h5>
-                     <p className='font-normal text-gray-700 dark:text-gray-400 text-center'>
+                     <p className='font-normal text-gray-700 text-center '>
                         Signature analytics is focused on service. We
                         serve – each other, the soldier, our
                         customers, our employees, our partners, our
@@ -41,10 +41,10 @@ const Mission = () => {
                         height={100}
                         className=' m-auto'
                      />
-                     <h5 className='text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center'>
+                     <h5 className='text-2xl font-bold tracking-tight  dark:text-white text-center'>
                         Customers
                      </h5>
-                     <p className='font-normal text-gray-700 dark:text-gray-400 text-center'>
+                     <p className='font-normal text-gray-700  text-center'>
                         Our customers come first. Being responsive,
                         professional and reliable is why we are hired.
                         We aim to deliver on all promises, exceeding
@@ -63,16 +63,17 @@ const Mission = () => {
                         height={100}
                         className=' m-auto'
                      />
-                     <h5 className='text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center'>
+                     <h5 className='text-2xl font-bold tracking-tight   text-center'>
                         Employees
                      </h5>
-                     <p className='font-normal text-gray-700 dark:text-gray-400 text-center'>
+                     <p className='font-normal text-gray-700  text-center'>
                         Our employees are the face of our service.
                         They are at the front lines working with our
-                        customers daily, and it is Lockwood’s duty to
-                        serve our employees. This means designing a
-                        culture centered around core values that
-                        inspire, retain and grow the best talent.
+                        customers daily, and it is Signature
+                        Analytics&apos; duty to serve our employees.
+                        This means designing a culture centered around
+                        core values that inspire, retain and grow the
+                        best talent.
                      </p>
                   </Card>
                </div>
