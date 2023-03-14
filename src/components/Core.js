@@ -16,6 +16,7 @@ const Core = () => {
                      alt='minority'
                      width={600}
                      height={600}
+                     unoptimized='true'
                      className='rounded-xl shadow-red-800 shadow-lg'
                   />
                </article>
