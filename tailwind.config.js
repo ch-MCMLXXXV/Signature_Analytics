@@ -10,6 +10,9 @@ module.exports = {
       './src/**/*.{js,ts,jsx,tsx}',
    ],
    theme: {
+      colors: {
+         gold: '#af8c4b',
+      },
       listStyleType: {
          square: 'square',
       },

@@ -3,7 +3,7 @@ import Image from 'next/image';
 const About = () => {
    return (
       <>
-         <section className=' p-12 bg-slate-100'>
+         <section className=' p-12 bg-gray-100'>
             <h1 className=' text-center font-bold text-5xl py-5 font-allura underline underline-offset-[12px] decoration-red-800'>
                About Us
             </h1>

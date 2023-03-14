@@ -18,7 +18,7 @@ const Info = () => {
                <span className=' text-3xl'>
                   <a
                      href='mailto:jpleasantjr@signatureanalyticshsv.com'
-                     className='text-white hover:text-yellow-500'
+                     className='text-white hover:text-gold'
                   >
                      jpleasantjr@signatureanalyticshsv.com
                   </a>

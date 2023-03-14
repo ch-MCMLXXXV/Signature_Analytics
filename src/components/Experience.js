@@ -26,7 +26,8 @@ const Experience = () => {
                         src='/images/office3.avif'
                         width={500}
                         height={500}
-                        alt='alt'
+                        alt='Office 3'
+                        unoptimized='true'
                         className='shadow-xl rounded-xl shadow-slate-400'
                      />
                   </div>
@@ -69,7 +70,8 @@ const Experience = () => {
                         src='/images/office4.avif'
                         width={500}
                         height={500}
-                        alt='alt'
+                        alt='Office 4'
+                        unoptimized='true'
                         className='shadow-xl rounded-xl shadow-slate-400'
                      />
                   </div>
@@ -78,7 +80,8 @@ const Experience = () => {
                         src='/images/office5.avif'
                         width={500}
                         height={500}
-                        alt='alt'
+                        alt='Office 5'
+                        unoptimized='true'
                         className='shadow-xl rounded-xl shadow-slate-400'
                      />
                   </div>
@@ -138,7 +141,8 @@ const Experience = () => {
                         src='/images/office6.avif'
                         width={500}
                         height={500}
-                        alt='alt'
+                        alt='Office 6'
+                        unoptimized='true'
                         className='shadow-xl rounded-xl shadow-slate-400'
                      />
                   </div>
