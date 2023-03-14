@@ -15,7 +15,7 @@ const Info = () => {
             </div>
             <div className='flex justify-center'>
                <HiEnvelope size={40} className=' mb-2 mr-4' />
-               <span className=' text-3xl'>
+               <span className=' xl:text-3xl'>
                   <a
                      href='mailto:jpleasantjr@signatureanalyticshsv.com'
                      className='text-white hover:text-gold'
