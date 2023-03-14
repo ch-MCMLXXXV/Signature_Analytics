@@ -24,7 +24,7 @@ export default function Home() {
             />
             <link rel='icon' href='/images/logo3.png' />
          </Head>
-         <main className=' bg-fixed bg-officeback2 bg-cover xl:bg-center'>
+         <main className=' bg-fixed bg-officeback2 bg-cover bg-center'>
             <section>
                <Hero />
             </section>
